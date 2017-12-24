@@ -34,6 +34,10 @@ gem 'devise'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
+gem 'ransack'
+gem "will_paginate"
+gem 'seo_helper','~> 1.0'
+
 
 
 group :development, :test do
