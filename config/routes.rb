@@ -18,5 +18,6 @@ Rails.application.routes.draw do
    resources :resumes
  end
 
+  get "page1/index"
   root 'welcome#index'
 end
