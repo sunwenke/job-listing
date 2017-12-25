@@ -315,3 +315,12 @@
 .item span {
     font-style: normal;
 }
+
+.item img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 1px;
+}
