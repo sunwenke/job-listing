@@ -21,5 +21,6 @@ Rails.application.routes.draw do
   get "page1/index"
   get "page2/index"
   get "page3/index"
+  get "about/index"
   root 'welcome#index'
 end

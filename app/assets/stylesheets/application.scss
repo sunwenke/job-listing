@@ -17,8 +17,16 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
- 
 
+
+
+ .landing-page {
+   background: #ffcdd2}
+   .container-fluid .landing-page {
+     padding-bottom: 0px;//内部的底部边距，这样按钮不会很靠近底部了
+     margin: -20px -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+     border-radius: 0;//圆角为0
+   }
 
  .jumbotron {
   background-image:url('https://ws1.sinaimg.cn/large/006tKfTcly1fmr1hv6vxsj31kw11x1l6.jpg');
@@ -164,7 +172,7 @@
 
   .container-fluid .jumbotron{
     padding-bottom: 110px;//内部的底部边距，这样按钮不会很靠近底部了
-    margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+    margin: -20px -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
     border-radius: 0;//圆角为0
   }
 
@@ -227,7 +235,7 @@
   width: 100%;
   margin-bottom: 10px;
   -webkit-appearance: none;
-  background: #fff;
+  background: #ffcdd2;
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
   /* border-radius: 2px; */
@@ -325,3 +333,47 @@
     border: 2px solid #ccc;
     margin-bottom: 1px;
 }
+
+//---------Content---------
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*===== footer ====*/
+.footer{
+    text-align: center;
+    min-height: 250px;
+    background-color: #ffcdd2;
+    padding: 15px 0;
+    color: #fff;
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  }
+  }
