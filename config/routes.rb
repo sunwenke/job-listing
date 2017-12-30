@@ -23,4 +23,5 @@ Rails.application.routes.draw do
   get "page3/index"
   get "about/index"
   root 'welcome#index'
+  root "topics#index"
 end
